@@ -1,0 +1,17 @@
+drop database db;
+create database db;
+use db
+
+drop table reg;
+drop table tempp;
+
+commit;
+
+
+create table reg(user_name varchar(200),pass varchar(200),phn varchar(200),email varchar(200));
+create table tempp(temp varchar(200));
+
+
+insert into reg values('a','b','1111111111','sivacan@gmail.com');
+commit;
+
